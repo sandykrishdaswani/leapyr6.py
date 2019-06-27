@@ -1,6 +1,6 @@
 import sys
-year=int(input())
-if year%400==0 or (year%4==0 and year%100!=0):
+yer=int(input())
+if yer%400==0 or (yer%4==0 and yer%100!=0):
   print('yes')
 else:
   print('no')
